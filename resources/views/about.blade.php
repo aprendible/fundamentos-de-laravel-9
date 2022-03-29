@@ -8,6 +8,7 @@
     <title>About</title>
 </head>
 <body>
+@include('partials.navigation')
 <h1>About</h1>
 </body>
 </html>
