@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aprendible - {{ $title ?? '' }}</title>
     <meta name="description" content="{{ $metaDescription ?? 'Default meta description' }}" />
+    @vite(['resources/js/app.js'])
 </head>
 <body>
 <x-layouts.navigation />
